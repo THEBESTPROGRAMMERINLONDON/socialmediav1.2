@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learners Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Language Learners Hub</h1>
+  </header>
+  <main>
+    <section id="profile">
+      <h2>Your Profile</h2>
+      <input id="username" type="text" placeholder="Enter your name" />
+      <select id="language">
+        <option value="" disabled selected>Select your target language</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="Japanese">Japanese</option>
+        <option value="German">German</option>
+      </select>
+      <button id="saveProfile">Save Profile</button>
+    </section>
+
+    <section id="postForm">
+      <h2>Create a Post</h2>
+      <textarea id="postContent" placeholder="Share your learning progress..."></textarea>
+      <button id="postButton">Post</button>
+    </section>
+
+    <section id="feed">
+      <h2>Community Feed</h2>
+      <div id="postsContainer"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
